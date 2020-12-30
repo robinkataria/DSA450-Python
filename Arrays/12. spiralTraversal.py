@@ -1,3 +1,4 @@
+# O(n) time | O(n) space
 def spiral(arr, N, M):
     sR = 0
     eR = N-1
