@@ -1,3 +1,4 @@
+# O(n) time | O(1) space
 def longestPeak(arr):
     longestPeakLength = 0
     arrayLength = len(arr)

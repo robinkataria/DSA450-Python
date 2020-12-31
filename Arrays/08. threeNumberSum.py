@@ -5,9 +5,9 @@ def threeNumberSum(arr, targetSum):
     out = []
 
     for i in range(arrSize):
+
         left = i + 1
         right = arrSize - 1
-
         for j in range(i+1, arrSize):
             if left >= right:
                 break
@@ -26,7 +26,8 @@ def threeNumberSum(arr, targetSum):
 
 
 # Driver
-arr = [-1, 0, 1, 2, -1, -4]
+# arr = [-1, 0, 1, 2, -1, -4]
+arr = [8, 9, 9, 1, 7, 5, 5, 10, 1, 0, 7]
 targetSum = 0
 
 output = threeNumberSum(arr, targetSum)
